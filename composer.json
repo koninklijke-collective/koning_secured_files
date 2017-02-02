@@ -1,0 +1,33 @@
+{
+    "name": "koninklijke-collective/koning_secured_files",
+    "description": "TYPO3 Extension: Secured Files, allows to protect filemounts with fe_groups. Requires some .htaccess settings.",
+    "type": "typo3-cms-extension",
+
+    "keywords": [
+        "TYPO3",
+        "CMS",
+        "Koning",
+        "htaccess",
+        "extension",
+        "security",
+        "Secured Files"
+    ],
+    "homepage": "http://serfhos.com",
+    "license": "LGPL-3.0+",
+
+    "version": "1.0.0",
+
+    "autoload": {
+        "psr-4": {
+            "KoninklijkeCollective\\KoningSecuredFiles\\": "Classes/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "Benjamin Serfhos",
+            "email": "benjamin@serfhos.com",
+            "homepage": "http://serfhos.com"
+        }
+    ]
+}

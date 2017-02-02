@@ -1,0 +1,14 @@
+# cat=basic/enable; type=string; label=List of file extensions allowed to be served by this extension. (comma separated) (to prevent it from reading .php source for example!)
+allowedFileExtensions = pdf,zip,jpg,jpeg,png,gif,xls,xlsx,doc,docx,rar,7z,tar,gz,exe,bmp,txt,odt,odf,rtf,htm,html,csv,pps,ppt,pptx,xml,wav,mp3,wma,avi,wmv,swf,flv,mp4,mpg,mov,tif,psd,eps,bin,iso,dmg,msi
+
+# cat=basic/enable; type=string; label=ID of your login page, or a path like ?eras=1
+loginPage = 0
+
+# cat=basic/enable; type=string; label=Query attributes for login page
+loginPageQuery = redirect_url={target}
+
+# cat=basic/enable; type=int+; label=ID of your 403 page.
+forbiddenPage = 0
+
+# cat=basic/enable; type=int+; label=ID of your 404 page.
+notFoundPage = 0

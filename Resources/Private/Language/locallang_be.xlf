@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2013-12-10T12:55:00Z"
+          product-name="koning_secured_files">
+        <header/>
+        <body>
+            <trans-unit id="sys_filemount.fe_group" xml:space="preserve">
+                <source>Access - Don't forget to configure your .htaccess file. (or files will NOT be protected!)</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
+
